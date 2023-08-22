@@ -1,20 +1,33 @@
 .mainContainer {
-    display: grid;
-    grid-template-rows:  50px 1fr 100px;
-    grid-template-columns:  1fr 3fr 1fr;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    grid-template-areas:
-    "header header header"
-    "leftSide main rightSide"
-    "leftSide footer footer";
+    background-color: rgb(204, 241, 160);
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    word-spacing: 1px;
+    color: rgb(1, 54, 7);
+
 }
 
+.menuItem {
+    background-color: rgb(204, 241, 160);
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    align-content: space-around;
+    color:black;
 
-.mainPanel {
-    grid-area: main;
-    padding: 10px;
-    background-color: #f167e3;
-   
-  }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+  
+
