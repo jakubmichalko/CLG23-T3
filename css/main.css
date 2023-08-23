@@ -1,5 +1,5 @@
 .mainContainer {
-    background-color: rgb(204, 241, 160);
+    background-color: rgb(169, 200, 132);
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
@@ -10,8 +10,10 @@
 
 }
 
+
+
 .menuItem {
-    background-color: rgb(204, 241, 160);
+    background-color: rgb(169, 200, 132);
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
@@ -30,4 +32,35 @@ body {
     
 }
   
+.MainPanel {
+    grid-area: rightSide;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;  
+}
+  
+.MainPanel img{
+    border: 10px solid;
+    border-color:darkgreen;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
+.MainTextPanel {
+    display: flex; 
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.RightPanel {
+    grid-area: rightSide;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: right;
+    justify-content: right;
+}
