@@ -32,3 +32,13 @@
     justify-content: center;
     align-items: center;
 }
+.maintext{
+    width: 600px;
+   
+}
+.maintext img{
+    border: 10px solid;
+    border-color: darkgreen;
+    border-radius: 50%;
+    object-fit: cover;
+}
