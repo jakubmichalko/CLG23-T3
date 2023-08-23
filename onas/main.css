@@ -1,0 +1,54 @@
+.titulky{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: sans-serif;
+}
+.nadpis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5cm;
+}
+.podnatpis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7cm;
+    font-family: sans-serif"Roboto";
+    justify-content: space-around;
+}
+.maincontainer{
+    background-color: rgb(204, 241, 160)
+}
+.obsah{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.RightPanel{
+    grid-area: rightSide;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: right;
+    justify-content: right;
+}
+
+.image {
+    size: 70px;
+    position: right;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+.dreamteam{
+    display: flex;
+    justify-content: space-between;
+}
