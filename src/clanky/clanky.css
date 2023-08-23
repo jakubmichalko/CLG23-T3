@@ -27,4 +27,8 @@
 }
 .obsah{
     justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
