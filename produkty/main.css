@@ -1,0 +1,102 @@
+.header {
+    background-color: rgb(189, 223, 148);
+    padding: 5px;
+} 
+
+
+img {
+    border: 5px solid #000000;
+}
+
+body {
+font-family: sans-serif
+}
+
+.product {
+    display: flex;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.product img {
+    margin-right: 30px;
+    border: 5px solid #000000;
+}
+
+.product-left {
+    flex-flow: row-reverse;
+    background-color: rgb(189, 223, 148);
+    padding: 10px;
+    
+}
+
+.product-left img {
+    margin-left: 30px;
+    margin-right: 0px;
+    border: 5px solid #000000;
+}
+
+.price {
+    color: rgb(1, 84, 12);
+    display: flex;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.discount {
+    color: red;
+    display: flex;
+}
+
+.originalPrice {
+    font-size: 16px;
+    display: flex;
+}
+
+.header {
+    background-color: rgb(189, 223, 148);
+}
+
+.originalPrice-left {
+    flex-flow: row-reverse;
+}
+
+.discount-left {
+    flex-flow: row-reverse;
+}
+
+.price-left {
+    flex-flow: row-reverse;
+}
+
+.ending {
+    padding: 60px;
+}
+
+.sale {
+    font-size: large;
+    color: rgb(1, 84, 12);
+}
+
+.transport {
+    font-size: large;
+    color: red;
+}
+
+.line {
+    background-color: #000000;
+    width: auto;
+    height: 5px;
+    padding-top: 3px;
+}
+
+.back {
+    background-color: rgb(1, 84, 12);
+    color: white;
+    padding: 10px;
+    border-style: round;
+    border-width: 5px;
+    border-color: rgb(1, 84, 12);
+}
