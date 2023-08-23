@@ -35,10 +35,12 @@ body {
 .MainPanel {
     grid-area: rightSide;
     display: flex;
-    flex-direction: column;
+    flex-direction:row-reverse;
     gap: 12px;
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+    object-fit: cover;
+    font-family: 'Roboto', sans-serif;
 }
   
 .MainPanel img{
@@ -46,21 +48,38 @@ body {
     border-color:darkgreen;
     border-radius: 50%;
     object-fit: cover;
+    flex-direction:row-reverse;
+    align-items: center;
 }
 
 .MainTextPanel {
     display: flex; 
-    flex-direction: row;
+    flex-direction: row-reverse;
     font-family: 'Roboto', sans-serif;
-
-
-}
-
-.RightPanel {
-    grid-area: rightSide;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    justify-content: center;
     gap: 12px;
-    align-items: right;
-    justify-content: right;
+
+
 }
+
+.mainTextPanel p, .mainTextPanel h2{
+    color: rgb(0, 0, 0);
+    width: 35%;
+    
+
+}
+
+.footerPanel{
+    grid-area: footer;
+    background-color:rgb(35, 90, 40);
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
