@@ -4,4 +4,41 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    font-family: sans-serif;
+}
+.nadpis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5cm;
+}
+.podnadpis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7cm;
+    font-family: sans-serif "Roboto";
+    justify-content: space-around;
+}
+.maincontainer{
+    background-color: rgb(204, 241, 160)
+}
+.obsah{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maintext{
+    width: 600px;
+   
+}
+.maintext img{
+    border: 10px solid;
+    border-color: darkgreen;
+    border-radius: 50%;
+    object-fit: cover;
 }
