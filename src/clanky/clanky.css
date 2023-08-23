@@ -4,34 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-.nadpis{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5cm;
-}
-.nadpis{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5cm;
-}
-.nadpis{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5cm;
-}
-.nadpis{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5cm;
+    font-family: sans-serif;
 }
 .nadpis{
     display: flex;
@@ -45,5 +18,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1cm;
+    font-size: 0.7cm;
+    font-family: sans-serif "Roboto";
+    justify-content: space-around;
+}
+.maincontainer{
+    background-color: rgb(204, 241, 160)
+}
+.obsah{
+    justify-content: space-around;
 }
