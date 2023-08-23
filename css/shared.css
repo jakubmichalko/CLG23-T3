@@ -3,3 +3,28 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+:root {
+    --clr-font:#403F38;
+    --clr-font-light:#FEFAE0;
+    --clr-bg: #d1fdb0;
+    --clr-bg2: #E3AD5D;
+    --clr-bg3:#D03119;
+    --clr-bg4:#A8AFE3;
+    
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--clr-font);
+    background-color: var(--clr-bg);
+  }
