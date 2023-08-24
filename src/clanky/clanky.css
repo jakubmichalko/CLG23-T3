@@ -34,7 +34,7 @@
     align-items: center;
 }
 .maintext{
-    width: 600px;
+    width: 700px;
    
 }
 .maintext img{
@@ -42,4 +42,7 @@
     border-color: darkgreen;
     border-radius: 50%;
     object-fit: cover;
+}
+.obrazkyoddelit{
+margin: 20px;
 }
