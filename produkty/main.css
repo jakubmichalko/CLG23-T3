@@ -122,7 +122,7 @@ font-family: sans-serif
     height: 400px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 12%;
+    top: -100%;
     left: 45%;  
     padding: 25px, 300px;
     transition: top 1s;
