@@ -18,7 +18,7 @@
 
 
 .menu-icon{
-    width: 35%;
+    width: 5%;
     position: absolute;
     top: 5%;
     right: 0,01%;
@@ -163,11 +163,31 @@ body {
     align-items: center;
     font-size: 2cm;
     font-family: sans-serif;
+    color: #000000;
 }
 .maintext{
     width: 600px;
     flex-direction: column;
    
+}
+.nadpisb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8cm;
+    font-family: sans-serif;
+    color: black;
+}
+.nadpisc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8cm;
+    font-family: sans-serif;
+    color: black;
+
 }
 .podnadpis{
     display: flex;
@@ -184,6 +204,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 0.6cm;
+    font-family: sans-serif "Roboto";
 }
 .footerPanel{
     grid-area: footer;
