@@ -117,5 +117,32 @@
     <span class="sale"><h4 align="center">Při Vašem prvním nákupu dostanete slevu 15% na Váš další nákup!</h4></span>
     <span class="transport"><h4 align="center">🚚Nakoupíte-li nákup ve výši více než 1000 Kč, budete mít dopravu zdarma!</h4></span><br>
 </div>
+<div class="menuItem">
+    <img src="images/iconmonstr-menu-6.svg" width="60px" height="60px" alt="" class="menu-icon" onclick="openmenu()"/> 
+    <div class="menu-box" id="menu">
+        <div class="right-links">
+        <a href="#">GET STARTED</a>
+        <img src="images/iconmonstr-x-mark-circle-lined.svg" onclick="closemenu()">
+        </div>
+        <div class="menu-links">
+            <a href="../index.html"  class="menu-links"> DOMŮ</a>      
+            <a href="../src/clanky/clanek-pece.html" class="menu-links">PÉČE A ZDRAVÍ</a>
+            <a href="../produkty/index.html" class="menu-links">PRODUKTY</a>
+            <a href="../onas/index.html" class="menu-links">O NÁS</a>
+        </div>
+    </div>
+   <script>
+    var menu= document.getElementById("menu");
+
+    function closemenu(){
+        menu.style.top = "-100vh";
+    }
+    function openmenu(){
+        menu.style.top = "12%";
+    }
+
+
+   </script>
+</div>
 </body>
 </html>
