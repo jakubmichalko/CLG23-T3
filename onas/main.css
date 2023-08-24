@@ -52,11 +52,29 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+
+
+.menuItem {
+    background-color: rgb(224, 208, 251);
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    align-content: space-around;
+    color:black;
+
+}
 .menu-icon{
     width: 5%;
     position: absolute;
     top: 5%;
-    right: 0,01%;
+    right: 0.05%;
     cursor: pointer;
 }
 .menu-box{
