@@ -26,5 +26,5 @@ body {
     word-spacing: 1.4px;
     font-family: 'Roboto', sans-serif;
     color: var(--clr-font);
-    background-color: var(--clr-bg);
+    background-color: rgb(168, 161, 218);
   }

@@ -11,34 +11,81 @@
     <title>Document</title>
 </head>
 <body>
+    
     <div class="mainContainer">
     
-        <h1>Skincare</h1>
-        <div class="menuItem">PRODUKTY</div>
-        <div class="menuItem">O NÁS</div>
-        <a href="./src/clanky/index.html" class="menuItem">PÉČE A ZDRAVÍ</a>
+        <h1> _____S k i n c a r e_________________________</h1>
         <div class="menuItem">
-            <img src="images/iconmonstr-menu-5.svg" width="80px" height="80" alt=""/>
+            <img src="images/iconmonstr-menu-6.svg" width="60px" height="60px" alt="" class="menu-icon" onclick="openmenu()"/> 
+            <div class="menu-box" id="menu">
+                <div class="right-links">
+                <a href="#">GET STARTED</a>
+                <img src="images/iconmonstr-x-mark-circle-lined.svg" onclick="closemenu()">
+                </div>
+                <div class="menu-links">
+                    <a href="#">         DOMŮ</a>
+                    <a href="./src/clanky/clanek-pece.html" class="menu-links">PÉČE A ZDRAVÍ</a>
+                    <a href="./produkty/index.html" class="menu-links">PRODUKTY</a>
+                    <a href="./onas/index.html" class="menu-links">O NÁS</a>
+                </div>
+            </div>
+           <script>
+            var menu= document.getElementById("menu");
+
+            function closemenu(){
+                menu.style.top = "-100vh";
+            }
+            function openmenu(){
+                menu.style.top = "12%";
+            }
+
+
+           </script>
         </div>
 
     </div>
     <div class="MainPanel">
+        <img src="images/ordinarz crem.jpg" width="400px" height="300" alt=""/>
         <img src="images/573774cbaa7451e2f3acbc51c35f86ac.jpg" width="600px" height="400" alt=""/>
-    </div>
-    <div class="MainPanel">
-        <div class="mainTextPanel">
-            <h2>Vítejte v Skincare!</h2>
-            <p>Péče o pleť je řada postupů, které podporují integritu pokožky, zlepšují její vzhled a zmírňují kožní problémy.</p>
-            <p>Jde o rutinní každodenní proceduru, která zabraňuje poranění kůže a rychlému stárnutí.</p>
+        <img src="images/krem na web.jpg" width="400px" height="300" alt=""/>
+       
+    </div> 
+   
+    
+    <h1 class="nadpis">Vítejte v skincare!
+    
+        <div class="maintext">
+            <h2 class="podnadpis">Dokonalá pleť? To přesně najdete u nás!
+                Naše produkty jsou špičkové a zároveň Bio.
+                Zabýváme se jak problémovou pletí, tak i normální. 
+                Naším cílem je pomáhat naším zákazníkům ke splnění jejich přání. <img src="images/sparkles_2728.png"width="60px" height="60" alt=""/> </h2>
+            
+            <h3 class="nadpisb"><u>Každou pleť dokážeme učinit šťastnou!</u></h3>
+            <h2 class="obsah">Péče o pleť je řada postupů, které podporují integritu pokožky, zlepšují její vzhled a zmírňují kožní problémy. <img src="images/butterfly_1f98b.gif" width="80px" height="80" alt=""/></h2>
+           
+            <h3 class="nadpisc"><u>O co jde?</u></h3>
+            <h2 class="obsah">Jde o rutinní každodenní proceduru, která zabraňuje poranění kůže a rychlému stárnutí. <img src="images/glowing-star_1f31f.gif" width="80px" height="80px" alt=""/></h2>
+            
+    
+             
         </div>
+    
+    </h1>
 
-
-    </div>
     <div class="RightPanel">
         <img src="images/olive-fruits-and-leaves-vegetarian-food-watercolor-hand-drawn-illustration-for-menu-packaging-design-wedding-invitation-save-the-date-or-greeting-card-png.webp" width="100px" height="90" alt=""/>
+        
     </div>
-
     
+    <div class="item footerPanel">
+        <h1>ADRESA </h1>
+        <p>fosjffosdfjjfodj</p>
+        <h2>UŽITEČNÉ ODKAZY</h2>
+        <p>kkkkkkkkkkkkkkkk</p>
+        <h3>KONTAKTY</h3>
+        <p>iiiiiiiiiiiiiiii</p>
+
+    </div>
 
 </body>
 </html>
