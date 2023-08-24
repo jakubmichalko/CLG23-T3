@@ -209,7 +209,7 @@ body {
 }
 .footerPanel{
     grid-area: footer;
-    background-color:rgb(70, 58, 99);
+    background-color:rgb(98, 84, 131);
     color: rgb(0, 0, 0);
     display: flex;
     font-size: 2em;
@@ -224,4 +224,33 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+.titulky{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8cm;
+    font-family: sans-serif;
+    color: #ffffff;
+    
+}
+.podtitulek{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.5cm;
+    font-family: sans-serif "Roboto";
+    justify-content: space-around;
+    color: #c3bbc9;
+}
+.vodafone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 0.5cm;
+    font-family: sans-serif;
+    color: #000000;
 }
