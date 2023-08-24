@@ -52,3 +52,67 @@
     display: flex;
     justify-content: space-between;
 }
+.menu-icon{
+    width: 5%;
+    position: absolute;
+    top: 5%;
+    right: 0,01%;
+    cursor: pointer;
+}
+.menu-box{
+    width:800px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 12%;
+    left: 45%;  
+    padding: 25px, 300px;
+    transition: top 1s;
+    border-radius: 30px;
+}
+.right-links{
+    position: absolute;
+    top:30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+}
+.right-links img{
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer
+}
+.right-links a{
+    text-decoration: none;
+    color: #fff;
+    background: #087f00;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.menu-links a{
+    text-decoration: none;
+    color: #000000;
+    width: max-content;
+    margin: 40px 0px;
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.menu-links a::after{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background-color: #087f00;
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    margin-top: 5px; 
+}
+.menu-links a:hover{
+    font-weight:700;
+}
+.menu-links a:hover::after{
+    display: inline-block;
+
+}
