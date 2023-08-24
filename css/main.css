@@ -29,7 +29,7 @@
     height: 400px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 12%;
+    top: -100vh;
     left: 45%;  
     padding: 25px, 300px;
     transition: top 1s;
@@ -130,6 +130,7 @@ body {
     align-items: center;
     object-fit: cover;
     font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
     align-content: center;
 }
   
@@ -139,7 +140,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     flex-direction:row-reverse;
-    align-items: center;
+    align-items: center; 
 }
 
 .mainTextPanel {
